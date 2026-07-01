@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.monstertweaks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ZombieEntityMixin",
+    "CreeperEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
